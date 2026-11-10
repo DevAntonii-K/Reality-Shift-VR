@@ -5,6 +5,11 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.section-padding{
+  padding: 64px 0;
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
@@ -17,5 +22,9 @@
   .container {
     max-width: 1440px;
     padding: 0 64px;
+  }
+
+  .section-padding {
+    padding: 112px 0;
   }
 }
