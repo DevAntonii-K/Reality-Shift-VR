@@ -66,12 +66,36 @@
   padding: 16px 16px 28px;
 }
 
+.games-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.games-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: inherits;
+}
+
 /* ==========================================================
    2. ПЛАНШЕТНИЙ АДАПТИВ (Спрацьовує від 768px і ширше)
    ========================================================== */
 
 @media (min-width: 768px) {
-  /* згодом додам */
+  .games-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .games-item {
+    max-width: none;
+    width: calc((100% - 24px) / 3);
+  }
 }
 
 /* ==========================================================
@@ -79,5 +103,23 @@
    ========================================================== */
 
 @media (min-width: 1158px) {
-  /* згодом додам */
+  .games-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .games-title {
+    margin-bottom: 0;
+    max-width: 527px;
+  }
+
+  .games-description {
+    max-width: 752px;
+  }
+
+  .games-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
