@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
   min-height: 731px;
-  max-width: 1440px;
+  padding: 272px 0;
 }
 
 .hero-title {
@@ -20,7 +20,6 @@
   letter-spacing: -0.01em;
   color: #fff;
   margin-bottom: 24px;
-  padding-top: 247px;
 }
 
 .hero-description {
@@ -84,12 +83,12 @@
       url(../img/hero/Hero-tablet-1x.jpg) 1x,
       url(../img/hero/Hero-tablet-2x.jpg) 2x
     );
-    min-height: 450px;
+    min-height: auto;
+    padding: 79px 0;
   }
 
   .hero-title {
     font-size: 48px;
-    padding-top: 79px;
   }
 
   .hero-btn-book,
@@ -114,11 +113,11 @@
       1x,
       url(../img/hero/Hero-Desktop-2x.jpg) 2x
     );
-    min-height: 900px;
+    min-height: 100%;
+    background-size: 1440px;
   }
 
   .hero-title {
-    padding-top: 272px;
     width: 835px;
     font-size: 64px;
   }
