@@ -9,6 +9,7 @@
   background-size: cover;
   background-position: center;
   min-height: 731px;
+  max-width: 1440px;
 }
 
 .hero-title {
