@@ -1,0 +1,273 @@
+/* ===== FOOTER: MOBILE ===== */
+
+.footer {
+  position: relative;
+  overflow: hidden;
+  padding: 48px 0;
+  background-color: #1f0243;
+  color: #ffffff;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 224px;
+  left: 50%;
+  width: 1423px;
+  height: 586px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: #6a08e0;
+  opacity: 0.2;
+  filter: blur(224px);
+  pointer-events: none;
+}
+
+.footer-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Logo */
+
+.footer-logo {
+  display: block;
+}
+
+.footer-logo-icon {
+  display: block;
+  width: 159px;
+  height: 68px;
+}
+
+/* Address and contacts */
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  font-style: normal;
+}
+
+.footer-contact-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.footer-contact-label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-contact-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer-contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* Social links */
+
+.footer-socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navigation */
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 360px;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.footer-nav-list a {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* Credits */
+
+.footer-credits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.footer-divider {
+  position: relative;
+  width: 100%;
+  height: 0;
+}
+
+.footer-divider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* ===== FOOTER: TABLET ===== */
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 64px;
+  }
+
+  .footer-info {
+    flex: 0 0 320px;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .footer-logo-icon {
+    width: 84px;
+    height: 36px;
+  }
+
+  .footer-address {
+    align-items: flex-start;
+  }
+
+  .footer-contact-group {
+    align-items: flex-start;
+  }
+
+  .footer-contact-label,
+  .footer-contact-link {
+    text-align: left;
+  }
+
+  .footer-contact-details {
+    align-items: flex-start;
+  }
+
+  .footer-social-link {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-nav {
+    flex: 0 0 320px;
+    min-height: 0;
+    justify-content: flex-end;
+  }
+
+  .footer-nav-list {
+    width: 75px;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .footer-nav-mobile-only {
+    display: none;
+  }
+}
+
+/* ===== FOOTER: DESKTOP ===== */
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding: 80px 0;
+  }
+
+  .footer-info {
+    flex-basis: 848px;
+  }
+
+  .footer-contact-label,
+  .footer-contact-link {
+    font-size: 16px;
+  }
+
+  .footer-nav {
+    flex-basis: 400px;
+  }
+
+  .footer-nav-list {
+    width: auto;
+    gap: 16px;
+  }
+
+  .footer-nav-list a {
+    font-size: 18px;
+  }
+
+  .footer-copyright {
+    font-size: 16px;
+  }
+}
