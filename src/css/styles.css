@@ -12,7 +12,7 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
-@import url('./about.css');
+@import url('./games.css');
 @import url('./advantages.css');
 @import url('./tariffs.css');
 @import url('./booking.css');
@@ -20,5 +20,5 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 @import url('./mobile-menu.css');
-@import url('./games.css');
+
 
