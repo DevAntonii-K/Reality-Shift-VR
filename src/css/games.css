@@ -4,8 +4,6 @@
 
 .games {
   width: 100%;
-  background-color: #2a0359;
-  color: #fff;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -70,14 +68,12 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
-  color: #fff;
 }
 
 .games-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  color: inherits;
 }
 
 /* ==========================================================
@@ -88,13 +84,11 @@
   .games-list {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 24px;
   }
 
   .games-item {
-    max-width: none;
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 24px) / 2);
   }
 }
 
