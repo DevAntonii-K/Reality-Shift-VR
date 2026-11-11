@@ -1,0 +1,84 @@
+.pricing{
+background:#1F0243;
+}
+
+.pricing-container{
+display: flex;
+padding: 64px 20px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+}
+.title-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+}
+.price-order-container{
+    display: flex;
+    flex-direction: column;
+
+gap: 24px;
+
+
+}
+.plan-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.button-game{
+   display: flex;
+padding: 10px 24px;
+justify-content: center;
+align-items: center;
+color: #fff;
+align-self: stretch;
+border-radius: 12px;
+border-top: 1.5px solid  #5406B3;
+border-right: 1.5px solid  #5406B3;
+border-bottom: 4px solid  #5406B3;
+border-left: 1.5px solid  #5406B3;
+background:  #6A08E0;
+transition: 250ms linear;
+}
+.plan-features{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.order{
+    display: flex;
+min-width: 320px;
+padding: 16px;
+flex-direction: column;
+
+
+flex: 1 0 0;
+border-radius: 8px;
+border: var(--Stroke-Border-Width, 1px) solid var(--Color-Scheme-1-Border, rgba(255, 255, 255, 0.20));
+background: var(--Color-Scheme-1-Foreground, #2A0359);
+}
+.icon-vector{
+fill: #fff;
+}
+.li-features{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.button-game:hover,
+.button-game:focus{
+    border-radius: 12px;
+border-top: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+border-right: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+border-bottom: 4px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+border-left: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+}
