@@ -37,6 +37,11 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  padding: 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  height: 289px;
 }
 
 .advantages-icons {
@@ -47,6 +52,8 @@
 }
 
 .advantages-item-description {
+  width: 271px;
+  text-align: center;
 }
 
 .advantages-item {
