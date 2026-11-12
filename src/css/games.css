@@ -137,6 +137,7 @@
   .games-list {
     flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: center; */
     justify-content: center;
     align-items: stretch;
     gap: 24px;

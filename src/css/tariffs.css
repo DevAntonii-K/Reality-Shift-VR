@@ -4,7 +4,7 @@ background:#1F0243;
 
 .pricing-container{
 display: flex;
-padding: 64px 20px;
+
 flex-direction: column;
 align-items: center;
 gap: 32px;
@@ -47,6 +47,11 @@ border-bottom: 4px solid  #5406B3;
 border-left: 1.5px solid  #5406B3;
 background:  #6A08E0;
 transition: 250ms linear;
+
+font-size:  16px;
+
+font-weight: 600;
+line-height: 150%;
 }
 .plan-features{
     display: flex;
@@ -81,4 +86,118 @@ border-top: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
 border-right: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
 border-bottom: 4px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
 border-left: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+}
+.title-pricing{
+font-size: 32px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: -0.32px;
+}
+.paragraf-under-title-pricing{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+}
+.title-plan{
+font-size: 18px;
+font-weight: 700;
+line-height: 110%;
+letter-spacing: -0.18px; 
+}
+.paragraf-plan{
+font-size: 36px;
+font-weight: 700;
+line-height: 100%; 
+letter-spacing: -0.36px;
+}
+.span-text{
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+}
+  .paragraf-under-title-pricing {
+  text-align: center;
+}
+@media (min-width: 768px) {
+    .paragraf-under-title-pricing{
+width: 522px;
+    }
+.price-order-container{
+    display: flex;
+flex-direction: row;
+gap: 24px;
+width: 100%;
+flex-wrap: wrap;
+}
+ .order {
+    box-sizing: border-box;
+ min-width: 320px;
+ padding: 32px;
+    gap: 32px;
+    flex: 0 0 calc((100% - 24px) / 2);
+  }
+
+  .plan-heading{
+    margin: 0;
+  }
+  .plan-features{
+    margin: 0;
+  }
+  .button-game {
+    margin-top: auto;
+  }
+  .title-pricing{
+    font-size: 44px;
+  }
+  .paragraf-plan{
+    font-size: 48px;
+  }
+  .paragraf-under-title-pricing {
+  text-align: center;
+}
+}
+@media (min-width: 1440px){
+
+
+.price-order-container {
+    gap: 32px;
+    flex-wrap: nowrap;
+  }
+
+  .order {
+    min-width: 0;
+    flex: 0 0 calc((100% - 96px) / 4);
+  }
+
+  .pricing-container{
+    gap: 80px;
+   
+
+  }
+  .title-pricing{
+    font-size: 45px;
+    letter-spacing: -0.54px;
+  }
+  .paragraf-under-title-pricing{
+    font-size: 20px;
+    line-height: 150%;
+  }
+  .title-plan{
+    font-size: 26px;
+    line-height: 110%;
+    letter-spacing: -0.26px;
+  }
+  .paragraf-plan{
+    font-size: 64px;
+    letter-spacing: -0.64px;
+  }
+  .span-text{
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .button-game{
+font-size: 18px;
+line-height: 150%;
+font-weight: 600;
+  }
 }
