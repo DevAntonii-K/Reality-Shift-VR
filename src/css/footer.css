@@ -6,9 +6,11 @@
   background-color: #1f0243;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
+  background-image: url('../img/Ellipse-1.svg');
+  background-position: center;
 }
 
-.footer::before {
+/* .footer::before {
   content: '';
   position: absolute;
   top: 224px;
@@ -21,7 +23,7 @@
   opacity: 0.2;
   filter: blur(224px);
   pointer-events: none;
-}
+} */
 
 .footer-container {
   position: relative;
