@@ -1,5 +1,14 @@
 .pricing{
 background:#1F0243;
+
+
+}
+.pricing {
+  background-color: #1f0243;
+  background-image: url("/img/price/ellipse.svg");
+  background-repeat: no-repeat;
+background-position: right  top 190.5px;
+background-size: 408px;
 }
 
 .pricing-container{
@@ -69,7 +78,7 @@ flex-direction: column;
 flex: 1 0 0;
 border-radius: 8px;
 border: var(--Stroke-Border-Width, 1px) solid var(--Color-Scheme-1-Border, rgba(255, 255, 255, 0.20));
-background: var(--Color-Scheme-1-Foreground, #2A0359);
+background: #2A0359;
 }
 .icon-vector{
 fill: #fff;
@@ -81,11 +90,12 @@ fill: #fff;
 }
 .button-game:hover,
 .button-game:focus{
-    border-radius: 12px;
-border-top: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
-border-right: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
-border-bottom: 4px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
-border-left: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.20));
+ border-radius: 12px;
+border-top: 1.5px solid  #2A0359;
+border-right: 1.5px solid  #2A0359;
+border-bottom: 4px solid  #2A0359;
+border-left: 1.5px solid  #2A0359;
+background:  #5406B3;
 }
 .title-pricing{
 font-size: 32px;
@@ -119,6 +129,15 @@ line-height: 150%;
   text-align: center;
 }
 @media (min-width: 768px) {
+.pricing {
+  background-color: #1f0243;
+  background-image: url("/img/price/ellipse-tablet.svg");
+  background-repeat: no-repeat;
+background-size: 408px;
+
+background-position: left  top 190.5px ;
+
+}
     .paragraf-under-title-pricing{
 width: 522px;
     }
@@ -158,7 +177,14 @@ flex-wrap: wrap;
 }
 @media (min-width: 1440px){
 
+.pricing {
+  background-color: #1f0243;
+  background-image: url("/img/price/ellipse-desc-top.svg");
+  background-repeat: no-repeat;
+background-size: 540px 454px;
 
+
+}
 .price-order-container {
     gap: 32px;
     flex-wrap: nowrap;
