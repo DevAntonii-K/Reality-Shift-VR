@@ -1,5 +1,4 @@
 .mobile-menu .container {
-  height: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -103,5 +102,13 @@
 
   .mobile-booking-btn {
     display: none;
+  }
+  .menu-close-btn {
+    top: 8px;
+    right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
 }
