@@ -30,3 +30,61 @@
   background-color: #ffffff;
   border-radius: 2px;
 }
+.header-booking-btn {
+  display: none;
+}
+.header-nav {
+  display: none;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .header-booking-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 20px;
+    background-color: #7000ff;
+    color: #ffffff;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .header-nav {
+    display: block;
+  }
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    .header .container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 24px;
+      min-height: 72px;
+    }
+
+    .header-booking-btn {
+      margin-left: auto;
+    }
+  }
+
+  .header-nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+}
