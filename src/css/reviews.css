@@ -18,10 +18,23 @@
     }
 }
 
+@media(min-width:1440px) {
+    .reviews_title {
+        font-size: 56px;
+    }
+}
+
 .reviews_subtitle {
     line-height: 1.5;
     text-align: center;
     margin-bottom: 32px;
+}
+
+@media(min-width:1440px) {
+    .reviews_subtitle{
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
 }
 
 .reviews_list {
@@ -33,9 +46,15 @@
 @media(min-width:768px) {
     .reviews_list{
         flex-direction: row;
-        /* gap: 24px; */
-        gap: 20px;
+        gap: 24px;
         flex-wrap: wrap;
+    }
+}
+
+@media(min-width:1440px) {
+    .reviews_list {
+        gap: 32px;
+        /* gap: 28px; */
     }
 }
 
@@ -49,7 +68,14 @@
 
 @media(min-width:768px) {
     .reviews_item {
-        max-width: calc((100% - 25px) / 2);
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media(min-width:1440px) {
+    .reviews_item {
+        width: calc((100% - 32px) / 2);
+        height: 217px;
     }
 }
 
@@ -57,12 +83,19 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    height: 100%;
 }
 
 @media(min-width:768px) {
     .reviews_post {
         max-width: 276px;
         justify-content: space-between;
+    }
+}
+
+@media(min-width:1440px) {
+    .reviews_post {
+        max-width: 576px;
     }
 }
 
@@ -83,7 +116,19 @@
     line-height: 1.5;
 }
 
+@media(min-width:1440px){
+    .reviews_post-body {
+        font-size: 20px;
+    }
+}
+
 .reviews_post-footer {
     font-weight: 600;
     line-height: 1.5;
+}
+
+@media(min-width:1440px) {
+    .reviews_post-footer{
+        font-size: 18px;
+    }
 }
