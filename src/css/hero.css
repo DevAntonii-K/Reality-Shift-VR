@@ -55,6 +55,9 @@
   border-right: 1.5px solid #5406b3;
   border-top: 1.5px solid #5406b3;
   gap: 8px;
+  transition:
+    background-color 250ms linear,
+    border-color 250ms linear;
 }
 
 .hero-btn-book:hover,
