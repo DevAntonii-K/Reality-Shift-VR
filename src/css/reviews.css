@@ -33,7 +33,7 @@
 @media(min-width:768px) {
     .reviews_list{
         flex-direction: row;
-        gap: 20px;
+        gap: 24px;
         flex-wrap: wrap;
         align-items: flex-start;
     }
@@ -53,7 +53,7 @@
 
 @media(min-width:768px) {
     .reviews_item {
-        width: calc((100% - 20px) / 2);
+        width: 340px;
     }
 }
 
@@ -119,5 +119,20 @@
 
     .reviews_item:nth-child(3) {
         min-height: 223px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .reviews_list {
+        gap: 32px;
+    }
+
+    .reviews_item {
+        width: 640px;
+        height: 217px;
+    }
+
+    .reviews_post {
+        max-width: none;
     }
 }
