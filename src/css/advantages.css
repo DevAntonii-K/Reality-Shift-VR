@@ -1,12 +1,6 @@
 .advantages {
 }
 
-.section-padding {
-}
-
-.container {
-}
-
 .advantages-title {
   font-family: 'Sora', sans-serif;
   font-weight: 700;
@@ -49,12 +43,74 @@
 }
 
 .advantages-item-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #fff;
 }
 
 .advantages-item-description {
-  width: 271px;
   text-align: center;
 }
 
 .advantages-item {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-item-title,
+  .advantages-item-description {
+    width: 100%;
+  }
+
+  .advantages-title {
+    font-size: 32px;
+  }
+
+  .advantages-description {
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .advantages-item-title {
+    font-size: 32px;
+  }
+
+  .advantages-item-description {
+    font-size: 18px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 64px) / 3);
+  }
+
+  .advantages-title {
+    font-size: 48px;
+  }
+
+  .advantages-description {
+    font-size: 20px;
+    margin-bottom: 80px;
+  }
+
+  .advantages {
+    background-image: url(/img/advantages/Ellipse-advantages.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
 }

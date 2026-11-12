@@ -1,15 +1,11 @@
-
 body {
-  font-family: 'Open Sans',
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
 
   background-color: #1f0243;
-  color:#fff;
+  color: #fff;
 
   display: flex;
   flex-direction: column;
