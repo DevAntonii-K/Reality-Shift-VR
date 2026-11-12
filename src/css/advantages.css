@@ -49,12 +49,39 @@
 }
 
 .advantages-item-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #fff;
+  /* width: 272px; */
 }
 
 .advantages-item-description {
-  width: 271px;
+  /* width: 271px; */
   text-align: center;
 }
 
 .advantages-item {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (min-width: 768px) {
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-item-title,
+  .advantages-item-description {
+    width: 100%;
+  }
 }
