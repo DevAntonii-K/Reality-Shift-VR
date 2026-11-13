@@ -9,11 +9,10 @@
   background-color: #1f0243;
   background-image: url('../img/footer/ellipse-mobile.svg');
   background-repeat: no-repeat;
+  background-position: bottom;
   background-size: auto;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  background-image: url('../img/Ellipse-1.svg');
-  background-position: center bottom;
 }
 
 .footer-container {
