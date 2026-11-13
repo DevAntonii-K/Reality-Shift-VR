@@ -1,17 +1,12 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section class="contact container">
-      <div class="contact-container">
+
+    <section class="contact section-padding" id="reserve">
+      <div class="contact-container container">
         <div class="section-title">
           <h3 class="paragraf-form">Забронювати</h3>
           <h2 class="title-form">Забронюйте сеанс</h2>
-          <p class="paragraf-form-under-title">Заповніть форму, щоб забронювати сеанс.</p>
+          <p class="paragraf-form-under-title">
+            Заповніть форму, щоб забронювати сеанс.
+          </p>
         </div>
         <div class="section-form">
           <form class="form-reserv">
@@ -25,6 +20,7 @@
                 type="text"
                 required
                 id="name"
+                name="name"
                 minlength="5"
                 maxlength="64"
                 placeholder="Андрій"
@@ -38,6 +34,7 @@
               <input
                 class="input-email"
                 type="email"
+                name="email"
                 id="email"
                 required
                 aria-describedby="email-error"
@@ -62,9 +59,7 @@
                     checked
                   />
                   <label class="castom" for="start">
-                    <span class="castom-radio">
-                      
-                    </span>
+                    <span class="castom-radio"> </span>
                     Старт
                   </label>
                 </li>
@@ -78,9 +73,7 @@
                     required
                   />
                   <label class="castom" for="standart">
-                    <span class="castom-radio">
-                     
-                    </span>
+                    <span class="castom-radio"> </span>
                     Стандарт
                   </label>
                 </li>
@@ -94,9 +87,7 @@
                     required
                   />
                   <label class="castom" for="premium">
-                    <span class="castom-radio">
-                     
-                    </span>
+                    <span class="castom-radio"> </span>
                     Преміум
                   </label>
                 </li>
@@ -110,18 +101,16 @@
                     required
                   />
                   <label class="castom" for="company">
-                    <span class="castom-radio">
-                     
-                    </span>
+                    <span class="castom-radio"> </span>
                     Компанія
                   </label>
                 </li>
               </ul>
             </fieldset>
+            <button class="button-form" type="submit">Забронювати</button>
           </form>
-          <button class="button-form" type="submit">Забронювати</button>
+          
         </div>
       </div>
     </section>
-  </body>
-</html>
+
