@@ -1,16 +1,16 @@
 .hero {
-  box-sizing: border-box;
-  display: flex;
-  align-items: flex-end;
   background-image: image-set(
-    url(/img/hero/Hero-mobile-1x.jpg) 1x,
-    url(/img/hero/Hero-mobile-2x.jpg) 2x
+    url(../img/hero/Hero-mobile-1x.jpg) 1x,
+    url(../img/hero/Hero-mobile-2x.jpg) 2x
   );
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
-  min-height: 731px;
-  padding: 240px 0 60px;
+  padding: 180px 0 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
 }
 
 .hero-container {
@@ -35,6 +35,14 @@
   line-height: 1.5;
   color: #fff;
   margin-bottom: 32px;
+}
+
+.hero-btn-book,
+.hero-btn-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero-btn-book {
@@ -90,18 +98,22 @@
 .button-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
+}
+
+@media (min-width: 375px) {
+  .hero {
+    padding-top: 240px;
+  }
 }
 
 @media (min-width: 768px) {
   .hero {
     background-image: image-set(
-      url(/img/hero/Hero-tablet-1x.jpg) 1x,
-      url(/img/hero/Hero-tablet-2x.jpg) 2x
+      url(../img/hero/Hero-tablet-1x.jpg) 1x,
+      url(../img/hero/Hero-tablet-2x.jpg) 2x
     );
-    align-items: center;
-    min-height: 450px;
-    padding: 64px 0;
+    padding: 77px 0;
   }
 
   .hero-title {
@@ -128,10 +140,10 @@
 @media (min-width: 1440px) {
   .hero {
     background-image: image-set(
-      url(/img/hero/Hero-desktop-1x.jpg) 1x,
-      url(/img/hero/Hero-Desktop-2x.jpg) 2x
+      url(../img/hero/Hero-desktop-1x.jpg) 1x,
+      url(../img/hero/Hero-Desktop-2x.jpg) 2x
     );
-    min-height: 900px;
+    padding: 272px 0;
   }
 
   .hero-title {
