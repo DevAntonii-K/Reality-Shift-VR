@@ -254,7 +254,7 @@
 
   .games-content {
     height: 94px;
-    padding: 8px 12px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
