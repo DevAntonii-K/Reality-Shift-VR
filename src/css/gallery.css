@@ -1,0 +1,72 @@
+/* Стилі для секції Галерея */
+.gallery {
+  padding: 40px 0;
+}
+
+.gallery-title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.gallery-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #757575;
+}
+
+/* Мобільна версія (вузькі екрани до 768px) */
+.gallery-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  width: 100%;
+}
+
+.gallery-item:first-child {
+  grid-column: span 2;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* Планшетна та десктопна версія (від 768px і ширше) */
+@media screen and (min-width: 768px) {
+  .gallery {
+    padding: 60px 0;
+  }
+
+  .gallery-title {
+    font-size: 36px;
+  }
+
+  /* Змінюємо сітку на 4 колонки: велика зліва, 4 менші праворуч */
+  .gallery-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+/* Весь десктоп (від 1200px) */
+@media screen and (min-width: 1200px) {
+  .gallery {
+    padding: 80px 0;
+  }
+}
