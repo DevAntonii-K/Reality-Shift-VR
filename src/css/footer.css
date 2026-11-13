@@ -9,28 +9,12 @@
   background-color: #1f0243;
   background-image: url('../img/footer/ellipse-mobile.svg');
   background-repeat: no-repeat;
-  background-position: 50% 114%;
   background-size: auto;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   background-image: url('../img/Ellipse-1.svg');
-  background-position: center;
+  background-position: center bottom;
 }
-
-/* .footer::before {
-  content: '';
-  position: absolute;
-  top: 224px;
-  left: 50%;
-  width: 1423px;
-  height: 586px;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  background-color: #6a08e0;
-  opacity: 0.2;
-  filter: blur(224px);
-  pointer-events: none;
-} */
 
 .footer-container {
   position: relative;
