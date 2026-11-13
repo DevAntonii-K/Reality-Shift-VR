@@ -133,7 +133,7 @@ line-height: 150%;
   background-color: #1f0243;
   background-image: url("/img/price/ellipse-tablet.svg");
   background-repeat: no-repeat;
-background-size: 408px;
+background-size:  100% auto;
 
 background-position: left  top 190.5px ;
 
@@ -179,7 +179,7 @@ flex-wrap: wrap;
 
 .pricing {
   background-color: #1f0243;
-  background-image: url("/img/price/ellipse-desc-top.svg");
+  background-image: url("/img/price/ellipse-desk-top.svg");
   background-repeat: no-repeat;
 background-size: 540px 454px;
 

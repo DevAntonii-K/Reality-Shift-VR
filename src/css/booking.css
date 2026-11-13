@@ -1,3 +1,16 @@
+
+  .contact{
+    background-color: #1f0243;
+  background-image: url("/img/contact/ellipse-mobile.svg");
+background-size: 100% auto; 
+background-size: contain;  
+background-size: cover;   
+
+
+  }
+
+
+
 .section-title {
   display: flex;
   flex-direction: column;
@@ -235,7 +248,7 @@ background-size: cover;
 
     .contact{
     background-color: #1f0243;
-  background-image: url("../img/contact/ellipse-deck-top.svg");
+  background-image: url("/img/contact/ellipse-deck-top.svg");
 background-size: 100% auto; 
 background-size: contain;  
 background-size: cover;   
