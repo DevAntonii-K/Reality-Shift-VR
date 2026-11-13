@@ -5,9 +5,9 @@ Reality Shift VR — це сучасний адаптивний вебсайт �
 
 Сайт поєднує футуристичний дизайн, насичені фіолетові кольори, неонові акценти та атмосферні зображення VR-ігор, створюючи захопливий користувацький досвід.
 
-🌐 Дизайн проєкту
+🌐 Прев'ю проєкту
 
-Макет у Figma: Reality Shift VR – Figma
+[ https://devantonii-k.github.io/Reality-Shift-VR/ ]
 
 ✨ Основні можливості
 Головний екран (Hero Section) — яскравий вступний блок із короткою презентацією VR-клубу та кнопками заклику до дії.
@@ -18,10 +18,9 @@ Reality Shift VR — це сучасний адаптивний вебсайт �
 Фотогалерея — фотографії, які демонструють атмосферу клубу та ігровий процес.
 Відгуки клієнтів — відгуки та враження відвідувачів.
 Адаптивний дизайн — коректне відображення сайту на комп'ютерах, планшетах і смартфонах.
+
 🎨 Дизайн та UI/UX
-
 Дизайн сайту виконаний у сучасному стилі з акцентом на геймінг та технології віртуальної реальності.
-
 Візуальна концепція:
 
 Темно-фіолетовий фон.
@@ -42,15 +41,12 @@ Mobile — смартфони.
 
 Технології, які використовуються під час реалізації сайту:
 
-HTML5
-CSS3
-JavaScript
-[Додати використані бібліотеки або фреймворки, якщо є]
+--HTML5
+--CSS3
+
 📂 Структура сайту
 
 Сайт складається з таких основних секцій:
-
-text
 Reality-Shift-VR/
 │
 ├── Header / Навігація
@@ -91,13 +87,6 @@ npm run dev
 
 Примітка: команди запуску потрібно адаптувати відповідно до фактичної структури та налаштувань проєкту.
 
-📸 Скріншоти
-
-Додайте скріншоти готового сайту, щоб продемонструвати його дизайн та функціональність.
-
-markdown
-![Reality Shift VR - Головна сторінка](./screenshots/homepage.png)
-
 🎯 Мета проєкту
 Створити сучасну онлайн-презентацію VR-клубу.
 Продемонструвати доступні ігри та VR-розваги.
@@ -105,14 +94,11 @@ markdown
 Спрощувати процес бронювання VR-сеансів.
 Забезпечити комфортне користування сайтом на різних пристроях.
 Створити привабливий та атмосферний інтерфейс.
-👨‍💻 Автор проєкту
 
-[Ваше ім'я]
+👨‍💻 Автори проєкту
+[Команда 1, 83-ого потоку курсу "Fullstack Bootcamp" школи GoIt]
 
-GitHub: Ваш профіль GitHub
-📄 Ліцензія
-
-Проєкт створений з навчальною метою та для демонстрації навичок веброзробки й дизайну.
+Проєкт створений з навчальною метою та для демонстрації навичок веброзробки.
 
 ⭐ Якщо вам сподобався цей проєкт, можете поставити йому зірочку на GitHub!
 
@@ -126,7 +112,7 @@ The website combines a futuristic design, vibrant purple colors, neon accents, a
 
 🌐 Design Preview
 
-Figma Design: Reality Shift VR – Figma
+[ https://devantonii-k.github.io/Reality-Shift-VR/ ]
 
 ✨ Features
 Hero Section – An eye-catching introduction to the VR club with a prominent call to action.
@@ -137,6 +123,7 @@ Online Booking – A booking form that allows visitors to reserve their VR sessi
 Photo Gallery – A collection of photos showcasing the atmosphere and gaming experience.
 Customer Reviews – Testimonials and feedback from visitors.
 Responsive Design – Layouts designed for desktop, tablet, and mobile devices.
+
 🎨 Design & UI/UX
 
 The design follows a modern gaming-inspired aesthetic.
@@ -155,21 +142,18 @@ Responsive Layouts:
 Desktop
 Tablet
 Mobile
+
 🛠️ Technologies
 
 The design was created in Figma.
 
-Add the technologies used in the website implementation:
+Technologies used in the website implementation:
+--HTML5
+--CSS3
 
-HTML5
-CSS3
-JavaScript
-[Add framework or libraries if used]
 📂 Website Structure
-
 The website is organized into the following sections:
 
-text
 Reality-Shift-VR/
 │
 ├── Header / Navigation
@@ -210,12 +194,6 @@ Open the local development URL in your browser.
 
 Note: Update these commands according to your project's actual setup.
 
-📸 Screenshots
-
-Add screenshots of the implemented website to showcase its design.
-
-markdown
-![Reality Shift VR - Homepage](./screenshots/homepage.png)
 
 🎯 Project Goals
 Create a modern online presence for a VR gaming club.
@@ -226,11 +204,7 @@ Provide a consistent experience across different screen sizes.
 Create an engaging and visually immersive interface.
 👨‍💻 Author
 
-[Your Name]
-
-GitHub: Your GitHub Profile
-📄 License
-
+[Team 1 of the 83rd stream at school GoIt]
 This project was created for educational and portfolio purposes.
 
 ⭐ If you like this project, feel free to give it a star!
