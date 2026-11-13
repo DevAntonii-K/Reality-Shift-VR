@@ -8,21 +8,30 @@
   height: auto;
   box-sizing: border-box;
 }
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 .mobile-menu-booking {
   display: none;
 }
 
 .menu-close-btn {
-  position: absolute;
-  top: 16px;
-  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
+  padding: 0;
   border: none;
   background-color: transparent;
   color: #fff;
   font-size: 32px;
   cursor: pointer;
+  margin-left: auto;
+  flex-shrink: 0;
 }
 
 .mobile-menu {
@@ -89,9 +98,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 16px;
-    right: 80px;
+    margin-left: auto;
     padding: 8px 20px;
     background-color: #7000ff;
     color: #ffffff;
@@ -104,11 +111,6 @@
     display: none;
   }
   .menu-close-btn {
-    top: 8px;
-    right: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
+    margin-left: 16px;
   }
 }
