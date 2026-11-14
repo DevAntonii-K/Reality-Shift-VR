@@ -211,7 +211,7 @@
   }
 
   .games-description {
-    width: calc((100% - 32px) / 2);
+    max-width: 752px;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
@@ -254,7 +254,7 @@
 
   .games-content {
     height: 94px;
-    padding: 8px 12px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
