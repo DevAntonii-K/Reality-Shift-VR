@@ -2,6 +2,7 @@
 .gallery {
   padding: 40px 0;
 }
+
 .gallery-title {
   font-size: 28px;
   text-align: center;
@@ -15,10 +16,9 @@
   color: #757575;
 }
 
-/* Мобільна версія (вузькі екрани до 768px) */
 .gallery-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   list-style: none;
   padding: 0;
@@ -29,10 +29,6 @@
   width: 100%;
 }
 
-.gallery-item:first-child {
-  grid-column: span 2;
-}
-
 .gallery-img {
   width: 100%;
   height: 100%;
@@ -41,7 +37,7 @@
   display: block;
 }
 
-/* Планшетна та десктопна версія (від 768px і ширше) */
+/* Планшетна версія (від 768px) */
 @media screen and (min-width: 768px) {
   .gallery {
     padding: 60px 0;
@@ -51,21 +47,34 @@
     font-size: 36px;
   }
 
-  /* Змінюємо сітку на 4 колонки: велика зліва, 4 менші праворуч */
   .gallery-list {
-    grid-template-columns: repeat(4, 1fr);
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
   }
 
-  .gallery-item:first-child {
-    grid-column: span 2;
-    grid-row: span 2;
+  .gallery-item {
+    width: calc((100% - 24px) / 2);
   }
 }
 
-/* Весь десктоп (від 1200px) */
+/* Десктопна версія (від 1200px) - за макетом */
 @media screen and (min-width: 1200px) {
   .gallery {
     padding: 80px 0;
+  }
+
+  .gallery-list {
+    gap: 24px;
+  }
+
+  /* Перша картка — велика зліва */
+  .gallery-item:first-child {
+    width: calc(50% - 12px);
+  }
+
+  /* Решта карток формують сітку праворуч */
+  .gallery-item:not(:first-child) {
+    width: calc((50% - 36px) / 2);
   }
 }
