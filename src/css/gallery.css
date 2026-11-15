@@ -1,22 +1,63 @@
-/* Стилі для секції Галерея */
+/* Стилі для секції Галерея (мобільна база) */
 .gallery {
+  position: relative;
   padding: 40px 0;
+  overflow: hidden;
 }
 
+/* Декоративний еліпс на фоні */
+.gallery::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  width: 320px;
+  height: 320px;
+  background-image: url('../img/Ellipse-1.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: blur(50px);
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Заголовок для мобілки (3 рядки) */
 .gallery-title {
+  font-weight: 700;
   font-size: 28px;
+  line-height: 1.2;
   text-align: center;
-  margin-bottom: 16px;
+  color: #ffffff;
+  max-width: 380px;
+  margin: 0 auto 16px;
+  position: relative;
+  z-index: 1;
 }
 
+/* На мобільці працює брейк для 3 рядків */
+.gallery-title .br-mobile {
+  display: block;
+}
+
+.gallery-title .br-desktop {
+  display: none;
+}
+
+/* Опис */
 .gallery-text {
+  font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
   text-align: center;
-  margin-bottom: 24px;
-  color: #757575;
+  color: #ffffff;
+  max-width: 335px;
+  margin: 0 auto 24px;
+  position: relative;
+  z-index: 1;
 }
 
-/* Мобільна версія (до 768px): 1 велике зверху, 4 маленьких знизу (2x2) */
+/* Мобільна сітка */
 .gallery-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -24,6 +65,8 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .gallery-item:first-child {
@@ -38,31 +81,40 @@
   border-radius: 12px;
 }
 
-/* Планшетна та десктопна версія (від 768px): 1 велике зліва, 4 маленьких справа */
+/* Десктоп та планшети (від 768px і вище) — заголовок на 2 рядки */
 @media screen and (min-width: 768px) {
-  .gallery-list {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .gallery-item:first-child {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-}
-
-/* Десктопна версія (від 1440px): збільшуємо відступи та розмір шрифту за потреби */
-@media screen and (min-width: 1440px) {
   .gallery {
     padding: 60px 0;
   }
 
   .gallery-title {
     font-size: 36px;
+    max-width: 580px;
+    margin-bottom: 20px;
+  }
+
+  /* Вимикаємо мобільний переніс і вмикаємо десктопний (2 рядки) */
+  .gallery-title .br-mobile {
+    display: none;
+  }
+
+  .gallery-title .br-desktop {
+    display: block;
+  }
+
+  .gallery-text {
+    max-width: 640px;
+    margin-bottom: 40px;
   }
 
   .gallery-list {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 24px;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
