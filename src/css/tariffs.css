@@ -3,12 +3,13 @@ background:#1F0243;
 
 
 }
-.pricing {
-  background-color: #1f0243;
+.pricing-container {
+
   background-image: url("/img/price/ellipse.svg");
-  background-repeat: no-repeat;
-background-position: right  top 190.5px;
-background-size: 408px;
+background-repeat: no-repeat;
+
+  background-position: center top;
+
 }
 
 .pricing-container{
@@ -129,13 +130,13 @@ line-height: 150%;
   text-align: center;
 }
 @media (min-width: 768px) {
-.pricing {
+.pricing-container{
   background-color: #1f0243;
   background-image: url("/img/price/ellipse-tablet.svg");
   background-repeat: no-repeat;
-background-size:  100% auto;
 
-background-position: left  top 190.5px ;
+
+background-position: left -0.5px  top;
 
 }
     .paragraf-under-title-pricing{
@@ -177,12 +178,13 @@ flex-wrap: wrap;
 }
 @media (min-width: 1440px){
 
-.pricing {
+.pricing-container {
   background-color: #1f0243;
   background-image: url("/img/price/ellipse-desk-top.svg");
   background-repeat: no-repeat;
-background-size: 540px 454px;
+background-size: 737px 155px cover;
 
+background-position: left -1 top 264px;
 
 }
 .price-order-container {
