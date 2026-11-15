@@ -127,10 +127,10 @@
 
 @media (min-width: 768px) {
   .hero {
-    background-image: image-set(
+    /* background-image: image-set(
       url(/img/hero/Hero-tablet-1x.jpg) 1x,
       url(/img/hero/Hero-tablet-2x.jpg) 2x
-    );
+    ); */
     padding: 77px 0;
   }
 
