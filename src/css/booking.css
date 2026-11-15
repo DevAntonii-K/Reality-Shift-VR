@@ -1,3 +1,16 @@
+
+  .contact{
+    background-color: #1f0243;
+  background-image: url("/img/contact/ellipse-mobile.svg");
+background-size: 100% auto; 
+background-size: contain;  
+background-size: cover;   
+
+
+  }
+
+
+
 .section-title {
   display: flex;
   flex-direction: column;
@@ -129,21 +142,22 @@ legend {
   font-weight: 600;
   line-height: 150%;
   align-self: stretch;
-  border-radius: 12px;
-  border-top: 1.5px solid var(--Color-Electric-Violet-Dark, #5406b3);
-  border-right: 1.5px solid var(--Color-Electric-Violet-Dark, #5406b3);
-  border-bottom: 4px solid var(--Color-Electric-Violet-Dark, #5406b3);
-  border-left: 1.5px solid var(--Color-Electric-Violet-Dark, #5406b3);
-  background: var(--Color-Electric-Violet, #6a08e0);
+border-radius: 12px;
+border-top: 1.5px solid  #5406B3;
+border-right: 1.5px solid  #5406B3;
+border-bottom: 4px solid  #5406B3;
+border-left: 1.5px solid  #5406B3;
+background: #6A08E0;
 }
 
 .button-form:hover,
 .button-form:focus {
-  border-radius: 12px;
-  border-top: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.2));
-  border-right: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.2));
-  border-bottom: 4px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.2));
-  border-left: 1.5px solid var(--Opacity-White-20, rgba(255, 255, 255, 0.2));
+ border-radius: 12px;
+border-top: 1.5px solid  #2A0359;
+border-right: 1.5px solid  #2A0359;
+border-bottom: 4px solid  #2A0359;
+border-left: 1.5px solid  #2A0359;
+background:  #5406B3;
 }
 .castom-radio {
   display: flex;
@@ -201,6 +215,15 @@ legend {
   line-height: 150%;
 }
 @media (min-width: 768px) {
+  .contact{
+    background-color: #1f0243;
+  background-image: url("/img/contact/ellipse-tablet.svg");
+background-size: 100% auto; 
+background-size: contain;  
+background-size: cover;   
+
+
+  }
   .contact-container {
     display: flex;
     flex-direction: row;
@@ -222,6 +245,16 @@ legend {
 }
 
 @media (min-width: 1444px) {
+
+    .contact{
+    background-color: #1f0243;
+  background-image: url("/img/contact/ellipse-deck-top.svg");
+background-size: 100% auto; 
+background-size: contain;  
+background-size: cover;   
+
+
+  }
   .title-form {
     font-size: 54px;
     letter-spacing: -0.54px;

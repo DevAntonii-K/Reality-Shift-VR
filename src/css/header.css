@@ -7,30 +7,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.menu-open-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .menu-open-btn {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
   width: 48px;
   height: 48px;
-  padding: 6px;
+  padding: 0;
   border: none;
   background: transparent;
   cursor: pointer;
-}
-
-.menu-line {
-  display: block;
-  width: 24px;
-  height: 2px;
-  background-color: #ffffff;
-  border-radius: 2px;
 }
 
 .header-booking-btn {
@@ -64,9 +63,16 @@
     gap: 24px;
     min-height: 72px;
   }
+  .header-logo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
 
   .header-nav {
     display: block;
+  }
+  .mobile-menu {
+    display: none;
   }
 
   .header-nav-list {
@@ -82,6 +88,9 @@
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: block;
   }
 
   .header-booking-btn {
