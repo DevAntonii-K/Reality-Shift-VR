@@ -3,7 +3,7 @@
     background-color: #1f0243;
   background-image: url("/img/contact/ellipse-mobile.svg");
    background-position: center center;
- 
+background-repeat: no-repeat;
 
 
 
@@ -219,7 +219,7 @@ background:  #5406B3;
    
   background-image: url("/img/contact/ellipse-tablet.svg");
    background-position: center center;
-  
+ background-repeat: no-repeat;
 
 
   }
@@ -246,7 +246,7 @@ background:  #5406B3;
 @media (min-width: 1440px) {
 
     .contact{
-  
+  background-repeat: no-repeat;
   background-image: url("/img/contact/ellipse-deck-top.svg");
 background-position: center center;
 
