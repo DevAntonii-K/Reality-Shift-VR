@@ -1,5 +1,5 @@
 
-  .contact-container{
+  .contact{
     background-color: #1f0243;
   background-image: url("/img/contact/ellipse-mobile.svg");
    background-position: center center;
@@ -215,8 +215,8 @@ background:  #5406B3;
   line-height: 150%;
 }
 @media (min-width: 768px) {
-  .contact-container{
-    background-color: #1f0243;
+  .contact{
+   
   background-image: url("/img/contact/ellipse-tablet.svg");
    background-position: center center;
   
@@ -245,8 +245,8 @@ background:  #5406B3;
 
 @media (min-width: 1440px) {
 
-    .contact-container{
-    background-color: #1f0243;
+    .contact{
+  
   background-image: url("/img/contact/ellipse-deck-top.svg");
 background-position: center center;
 

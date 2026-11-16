@@ -3,7 +3,7 @@ background:#1F0243;
 
 
 }
-.pricing-container {
+.pricing{
 
   background-image: url("/img/price/ellipse.svg");
 background-repeat: no-repeat;
@@ -130,7 +130,7 @@ line-height: 150%;
   text-align: center;
 }
 @media (min-width: 768px) {
-.pricing-container{
+.pricing{
   background-color: #1f0243;
   background-image: url("/img/price/ellipse-tablet.svg");
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ flex-wrap: wrap;
 }
 @media (min-width: 1440px){
 
-.pricing-container {
+.pricing {
   background-color: #1f0243;
   background-image: url("/img/price/ellipse-desk-top.svg");
   background-repeat: no-repeat;
