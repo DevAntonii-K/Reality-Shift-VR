@@ -123,9 +123,7 @@
       url(/img/hero/Hero-desktop-1x.jpg) 1x,
       url(/img/hero/Hero-Desktop-2x.jpg) 2x
     );
-    
   }
-  
 }
 
 @media (min-width: 768px) {
@@ -161,6 +159,7 @@
       url(/img/hero/Hero-Desktop-2x.jpg) 2x
     );
     padding: 272px 0;
+    background-size: contain;
   }
 
   .hero-title {
