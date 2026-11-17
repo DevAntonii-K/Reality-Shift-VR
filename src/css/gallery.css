@@ -3,23 +3,21 @@
   position: relative;
   padding: 40px 0;
   overflow: hidden;
+
+  background-image: url('../img/gallery/gallery-ellipse-mobile.svg');
+  background-repeat: no-repeat;
 }
 
-/* Декоративний еліпс на фоні */
-.gallery::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  right: -30px;
-  width: 320px;
-  height: 320px;
-  background-image: url('../img/Ellipse-1.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  filter: blur(50px);
-  opacity: 0.5;
-  z-index: 0;
-  pointer-events: none;
+@media(min-width:768px){
+  .gallery{
+    background-image: url('../img/gallery/gallery-ellipse-tablet.svg');
+  }
+}
+
+@media(min-width:1440px) {
+  .gallery {
+    background-image: url('../img/gallery/gallery-ellipse-desktop.svg');
+  }
 }
 
 /* Заголовок для мобілки (3 рядки) */
